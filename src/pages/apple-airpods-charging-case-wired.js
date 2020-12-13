@@ -4,18 +4,18 @@ export default function Index() {
   return (
     <section className='xl:divide-y xl:divide-gray-200'>
       <Head>
-        <title>Apple AirPods 2nd generation- KnowMoreWays</title>
-        <meta name='description' content='With more talk time, voice-activated Siri access — and a wireless charging case — AirPods deliver an unparalleled wireless headphone experience. Simply take them out and they’re ready to use with all your devices. Put them in your ears and they connect immediately, immersing you in rich, high-quality sound. Just like magic.' />
+        <title>Apple AirPods with Charging Case (Wired)- KnowMoreWays</title>
+        <meta name='description' content='With more talk time, voice-activated Siri access — and a wired charging case — AirPods deliver an unparalleled wireless headphone experience. Simply take them out and they’re ready to use with all your devices. Put them in your ears and they connect immediately, immersing you in rich, high-quality sound. Just like magic.' />
         <link rel="canonical" href="https://knowmoreways.com/apple-airpods-2nd-generation" />
       </Head>
       <header className='pt-6 xl:pb-10 text-center'>
-        <h1 className='text-3xl leading-9 font-extrabold text-gray-900 tracking-tight sm:text-4xl sm:leading-10 md:text-5xl md:leading-14'>Apple AirPod 2</h1>
+        <h1 className='text-3xl leading-9 font-extrabold text-gray-900 tracking-tight sm:text-4xl sm:leading-10 md:text-5xl md:leading-14'>Apple AirPod</h1>
       </header>
       <article className='prose max-w-none pt-10 pb-8'>
         <figure className='text-center'>
           <img
             src='https://images.unsplash.com/photo-1582974114209-b508ec603c6e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1024&q=80'
-            alt='Apple AirPods 2nd generation'
+            alt='Apple AirPods with Charging Case (Wired)'
             width='1024'
             height='687'
             loading='lazy'
@@ -31,7 +31,7 @@ export default function Index() {
         <h2>Design</h2>
         <p>
           The new airpods are aesthetically absolutely identical to their predecessors, which means they still look like a pair of EarPods sans their wires. If you think the dangling stalk fashion is daft, look elsewhere. One AirPod weighs just 4g, and it’s easy to forget you’re even wearing them.
-          What has changed is the charging case.There’s a little LED light on the front that lights up orange for a few seconds to let you know it’s detecting charge, and then green when it’s fully juiced.
+          What has changed is the charging case. There’s a little LED light on the top that lights up orange for a few seconds to let you know it’s detecting charge, and then green when it’s fully juiced.
           While it’ll charge it faster with a Lightning cable, throwing the case onto a pad when your phone isn’t hogging it just feels more convenient.
         </p>
         <hr />
@@ -44,18 +44,17 @@ export default function Index() {
         <h2>Good for phone calls</h2>
         <p>The Apple AirPods microphone is better than you’d expect from an embedded mic system. These should be perfectly fine for casual phone calls, and can even get you through some brief conference calls.</p>
         <hr />
-        <h3>Our Verdict</h3>
-        <button>
+        <h2>Our Verdict</h2>
+        <a href="https://amzn.to/2WaX07x" target="_blank" rel="noopener noreferrer">
           GO FOR IT
-        </button>
-        <h2>PROS</h2>
+        </a>
+        <h3>PROS</h3>
         <ul>
           <li>Ample bass</li>
           <li>Low distortion</li>
           <li>Improved battery life</li>
         </ul>
-        <hr />
-        <h2>CONS</h2>
+        <h3>CONS</h3>
         <ul>
           <li>Recessed mids</li>
           <li>Long charging times</li>
