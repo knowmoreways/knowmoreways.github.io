@@ -1,0 +1,27 @@
+{
+  "name": "knowmoreways",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "prebuild": "rimraf node_modules/.cache .next out",
+    "build": "next build",
+    "start": "next start",
+    "preexport": "npm run build",
+    "export": "next export",
+    "postexport": "touch out/.nojekyll",
+    "predeploy": "npm run export",
+    "deploy": "git add out/ && git commit -m \"Deploy knowmoreways to gh-pages\" && git subtree push --prefix out origin gh-pages"
+  },
+  "dependencies": {
+    "next": "10.0.3",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "0.3.1",
+    "autoprefixer": "10.1.0",
+    "postcss": "8.2.1",
+    "tailwindcss": "2.0.2"
+  }
+}
